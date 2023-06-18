@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Button(props) {
+export default function Button(props) {
   return (
     <button className="btn" id={props.id} onClick={props.clickHandle}>
       {props.children}
